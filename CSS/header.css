@@ -1,0 +1,82 @@
+#mapa {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #cdaef5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  .mapa{
+    margin-top: 25px;
+    margin-bottom:30px;
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  /* Estilos de menú desplegable */
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 0;
+    margin-top: 0;
+    left: 0;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    width: 100%;
+  }
+  
+  .submenu li a {
+    padding: 10px 15px;
+    display: block;
+    color: #fff;
+  }
+  
+  .submenu li a:hover {
+    background-color: #555;
+  }
+  
